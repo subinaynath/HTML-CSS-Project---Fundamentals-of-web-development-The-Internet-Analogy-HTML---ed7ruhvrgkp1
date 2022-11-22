@@ -1,1 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: rgb(173, 131, 192);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.mobile{
+    border:2px solid  white;
+    border-radius: 10px;
+    height:490px ;
+    width: 320px;
+    position: relative;
+}
+.mbody{
+    width: 100%;
+    height: 90%;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+.nav{
+    background-color: white;
+    border-bottom: yellow;
+    height: 10%;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+.icon:hover{
+    color: rgb(163, 118, 184);
+}
